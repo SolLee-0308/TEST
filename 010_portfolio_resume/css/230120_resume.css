@@ -1,0 +1,363 @@
+@charset "utf-8";
+
+.cf {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    width: 1442px;
+    height: 1778px;
+    margin: 0 auto;
+    text-align: center;
+    color: #3b3b3b;
+}
+span {
+    font-size: 10px;
+    color: #abb2ba;
+}
+
+#wrap {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#intro {
+    width: 400px;
+    margin-left: 140px;
+    text-align: left;
+
+    float: left;
+}
+#career {
+    width: 679px;
+    padding-right: 142px;
+    margin-left: 81px;
+    text-align: left;
+
+    float: left;
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+.info {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 1px;
+}
+.info img {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 51px;
+}
+.info h2{
+    font-size: 14px;
+    margin-top: 40px;
+}
+.info h2+h2 {
+    margin-top: 17px;
+}
+.info p {
+    line-height: 1.5;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    
+}
+
+
+.github {
+    border-top: 1px double #fbfbfb;
+    border-width: 3px;
+    
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 1px;
+}
+.github h2 {
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+.github p {
+    margin-bottom: 36px;
+}
+
+
+
+.tech {
+    border-top: 1px double #fbfbfb;
+    border-width: 3px;
+    
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 1px;
+}
+.tech h2 {
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+.tech ul li {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 3px;
+    color: #f6efe9;
+    background-color: #253a3f;
+    display: inline-block;
+}
+.ttech ul li {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 3px;
+    color: #313133;
+    background-color: #edf0f7;
+    display: inline-block;
+
+}
+.ttech {
+    margin-bottom: 25px;
+}
+
+/* -------------------------------
+/* ------------------------------- */
+
+#edc {
+    width: 680px;
+    height: 182px;
+    margin-top: 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+
+    content: "";
+    display: block;
+    clear: both;
+}
+.edc_title {
+    width: 163px;
+    padding-left: 25px;
+    padding-top: 30px;
+
+    float: left;
+}
+
+.univ {
+    width: 462px;
+    margin-left: 50px;
+    padding-right: 126px;
+
+    float: right;
+}
+
+.univ p {
+    line-height: 1.5;
+}
+
+.univ h4 {
+    margin-top: 72px;
+    margin-bottom: 20px;
+}
+.edc_title h3 {
+    margin-top: 25px;
+}
+/* ------------------------------- */
+/* ------------------------------- */
+/*  */
+#exp {
+    width: 680px;
+    height: 182px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-top: 35px;
+    
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.experience_title {
+    width: 163px;
+    padding-left: 25px;
+    padding-top: 30px;
+    
+    float: left;
+}
+.experience_list_1 {
+    width: 462px;
+    margin-left: 50px;
+    padding-right: 126px;
+    
+    float: right;
+}
+.experience_list_1 ul li {
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 3px;
+    color: #313133;
+    background-color: #edf0f7;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+
+.experience_list_1 h4 {
+    margin-top: 72px;
+}
+.experience_title h3 {
+    margin-top: 25px;
+}
+/* ------------------------------- */
+/* ------------------------------- */
+
+#certf {
+    width: 680px;
+    height: 200px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-top: 35px;
+    
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.certf_1 {
+    width: 163px;
+    padding-left: 25px;
+    padding-top: 30px;
+    
+    float: left;
+}
+.certf_2 {
+    width: 462px;
+    margin-left: 50px;
+    padding-right: 126px;
+    margin-top: 72px;
+    line-height: 1.4;
+    
+    float: right;
+}
+.period_1 {
+    margin-top: 25px;
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+#activity {
+    width: 680px;
+    height: 520px;
+    margin-top: 35px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.activity_1 {
+    width: 163px;
+    padding-left: 25px;
+    padding-top: 30px;
+    
+    float: left;
+}
+.activity_2 {
+    width: 462px;
+    margin-left: 50px;
+    padding-right: 35px;
+    margin-top: 72px;
+
+    float: right;
+}
+
+.period_2 {
+    margin-top: 25px;
+}
+.period_2 h5 {
+    margin-top: 140px;
+}
+.activity_2 p {
+    line-height: 1.5;
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+#lang {
+    width: 680px;
+    height: 110px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-top: 35px;
+    
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lang_1 {
+    width: 163px;
+    padding-left: 25px;
+    padding-top: 30px;
+    
+    float: left;
+}
+.lang2 {
+    width: 462px;
+    margin-left: 50px;
+    padding-right: 126px;
+    margin-top: 30px;
+    
+    float: right;
+}
+.period_2 {
+    margin-top: 25px;
+} 
+
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+.edc_title h2,
+.experience_title h2,
+.certf_1 h2, 
+.activity_1 h2, 
+.lang_1 h2 {
+    font-size: 16px;
+    color: #383838;
+}
+.edc_title h3,
+.experience_title h3,
+.period_1 h3, 
+.period_2 h3,
+.period_2 h5 {
+    line-height: 2.2;
+    font-size: 12px;
+    color: #a1a0a6;
+}
+.experience_title h5 {
+    font-size: 12px;
+    color: #a1a0a6;
+    margin-top: 12px;
+}
+.period_2 h3+h3 {
+    margin-top: 12px;    
+}
+
+
+.univ h4,
+.experience_list_1 h4,
+.certf_2 h4,
+.activity_2 h4,
+.lang2 h4 {
+    font-size: 19px;
+    color: #213148;
+}
+
+
+
